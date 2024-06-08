@@ -7,22 +7,86 @@
 
     <!-- Links de Estilos -->
     <link rel="stylesheet" href="styles/style.css" />
-    <!-- Tailwind -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <div>
         <div>
-            <h2>Riot Games</h2>
-            <i class="fa-solid fa-caret-down"></i>
+          <h2>Riot Games</h2>
+          <i class="fa-solid fa-caret-down"></i>
         </div>
-        <img src="img/lol-header.png" alt="Logo League of Legends">
+        <img src="img/lol-header.png" alt="Logo League of Legends" />
+        <nav class="hidden">
+          <ul>
+            <li>O Jogo</li>
+            <li>Campeões</li>
+            <li>
+              <details>
+                <summary>Notícias</summary>
+                <ul>
+                  <li>Tudo</li>
+                  <li>Atualizações do Jogo</li>
+                  <li>Esports</li>
+                  <li>Dev</li>
+                  <li>História</li>
+                  <li>Mídia</li>
+                  <li>Produtos</li>
+                  <li>Comunidade</li>
+                  <li>Riot Games</li>
+                </ul>
+              </details>
+            </li>
+            <li>Notas das Atualizações</li>
+            <li>
+              <details>
+                <summary>Comunidade</summary>
+                <ul>
+                  <li>Discord</li>
+                  <li>Fórum</li>
+                  <li>Torneios da Comunidade</li>
+                  <li>Programas de apoio a torneios da comunidade</li>
+                </ul>
+              </details>
+            </li>
+            <li>Esports</li>
+            <li>Universo</li>
+            <li>Criador de Avatar</li>
+            <li>League Displays</li>
+            <li>
+              <details>
+                <summary>Suporte</summary>
+                <ul>
+                  <li>Riot Mobile</li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div></div>
+      <div>
+        <div class="hidden">
+          <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+        <div>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+        <div class="hidden">
+          <a href="#">Jogue agora</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
     </header>
   </body>
 </html>
